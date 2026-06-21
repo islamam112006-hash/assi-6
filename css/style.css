@@ -576,15 +576,24 @@ body {
 ========================================= */
 
 @media (max-width: 991px) {
-    .display-3 {
-        font-size: 3rem !important;
+    #game-navbar .navbar-collapse {
+        background-color: #0b0e14;
+        padding: 1.5rem 0.5rem;
+        margin-top: 1rem;
     }
-    .navbar-nav {
-        margin-top: 20px;
+    #game-navbar .nav-link {
+        padding: 0.6rem 0;
+        font-size: 1.05rem;
+    }
+    #game-navbar .nav-icon {
+        padding: 0.4rem 0;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    #game-navbar .nav-icon i {
+        width: 20px;
         text-align: center;
-    }
-    .section-title h2 {
-        font-size: 2.2rem;
+        text-decoration: none;
     }
 }
 
